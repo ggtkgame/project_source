@@ -1,0 +1,26 @@
+
+/* elegro */
+#elegro-reset-wrapper .elegro-widget__form input[placeholder]::placeholder {
+    color: inherit!important;
+}
+#elegro-reset-wrapper .elegro-widget__form input[type=email] {
+	-webkit-transform: none;
+	-ms-transform: none;
+	transform: none;
+	color: inherit!important;
+	background-color: inherit!important;
+}
+#elegro-reset-wrapper .vs__selected-options input[type=search] {
+    transform: none!important;
+    background-color: inherit!important;
+}
+
+.woocommerce #modal,
+.woocommerce-page #modal {
+	z-index: 999999;
+}
+.woocommerce-page #elegro-reset-wrapper .elegro-widget__button,
+.woocommerce #elegro-reset-wrapper .elegro-widget__button {
+	padding: 5px;
+	overflow: hidden;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>BACCARAT</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+<body>
+  <script type="text/javascript">
+    function getRandomInteger(min, max) {
+      return Math.floor(Math.random() * (max - min + 1) + min);
+    }
+    // document.addEventListener("DOMContentLoaded", function () {
+      if (screen.width < screen.height) {
+        if (location.href.indexOf('index3.html') == -1) {
+          location.href = "./index3.html?v=" + Math.random().toFixed(6);
+        }
+      } else {
+        if (location.href.indexOf('index2.html') == -1) {
+          var _arr = [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0];
+          var _nn = _arr[getRandomInteger(0, 9)];
+          var _num = 1;
+          if (_nn == 1) {
+            _num = Math.random().toFixed(6);
+          }
+          location.href = "./index2.html?v=" + _num;
+        }
+      }
+    // });
+    
+  </script>
+
+</body>
+
+</html>

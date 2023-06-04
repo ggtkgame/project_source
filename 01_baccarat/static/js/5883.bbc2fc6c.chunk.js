@@ -1,0 +1,1 @@
+(self.webpackChunkgame1=self.webpackChunkgame1||[]).push([[5883],{35883:function(){}}]);
